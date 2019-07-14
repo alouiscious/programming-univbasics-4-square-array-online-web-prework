@@ -7,6 +7,7 @@ def square_array(array)
     numbers[count] = numbers[count] * numbers[count]
     count += 1
   end
+return numbers
 
   new_numbers = [9, 10, 16, 25]
   count = 0
@@ -14,5 +15,6 @@ def square_array(array)
     new_numbers[count] = new_numbers[count].to_i * new_numbers[count]
     count += 1
   end
+return new_numbers
 
 end
