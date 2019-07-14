@@ -5,11 +5,10 @@ def square_array(array)
   new_numbers = [9, 10, 16, 25]
 
   while count < numbers.length
-    new_numbers[count] = new_numbers[count].to_i * new_numbers[count]
-    return numbers
     numbers[count] = numbers[count] * numbers[count]
+    new_numbers[count] = new_numbers[count].to_i * new_numbers[count]
 
-      count += 1
+    count += 1
   end
   # return new_numbers
   #
